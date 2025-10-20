@@ -1,0 +1,9 @@
+# Explicación del ejercicio final - Módulo 1
+## Interpretación del enunciado. En este ejercicio necesitabamos desarrollar un programa de gestión de inventario, donde pudiesemos revisar el inventario, agregar nuevos productos con su nombre, precio y cantidad; buscar productos por nombre, atualizar el stock, eliminar productos de éste y calcular el valor total de los articulos. 
+## Estructura Inicial de Datos. Definimos lo que es el inventario como una lista de diccionarios, donde cada producto tiene tres claves.
+## Función Ver Inventario; Aqui mostramos todos los productos disponibles recorriendo la lista con un bucle for.
+## Función Agregar Producto; Permite agregar nuevos artículos, evitando duplicados. Hemos desarrollado este paso con funciones con parámetros, condicionales if, y manipulación de listas.
+## Función Actualizar Stock; Actualizamos la cantidad disponible de un producto existente, si no se encuentra, nos muestra el aviso. Lo hemos llevado a cabo, aplicando condicionales anidados y bucle for. 
+## Función Eliminar Producto; Eliminar un producto del inventario, a través de remove() para eliminar elementos y Condiciones para verificar la existencia del producto.
+## Función calcular el valor del inventario; el cuall hemos obtenido sumando el precio y multiplicando por cantidad de cada producto, llevando a cabo acumuladores, bucles y operaciones aritméticas.
+## Función Realizar Compra; Simulamos la compra, donde pondremos en práctica el ejercicio entero. 1. Muestra los productos disponibles. 2. Permite introducir el nombre del producto y cantidad, 3.Comrpueba si hay stock, 4.Actualiza inventario y calcula el total a pagar. 
